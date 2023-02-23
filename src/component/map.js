@@ -26,11 +26,12 @@ function Map() {
     });
   };
   return (
-    <div id="divToPrint">
+    <div>
       <h1>
         <code>Map</code>
       </h1>
       <Stack
+        id="divToPrint"
         direction={{ xs: 'column', sm: 'row' }}
         sx={{ mb: 2 }}
         spacing={{ xs: 1, sm: 2, md: 4 }}
